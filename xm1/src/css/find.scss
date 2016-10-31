@@ -1,0 +1,407 @@
+html,body,.above{
+	width:100%;
+	height:100%;
+}
+
+.above{
+	display:-webkit-flex;
+	-webkit-flex-direction:column;
+	font-size:.3rem;
+	&>div{
+		width:100%;
+		height:100%;
+	}
+}
+b{font-weight:300;}
+i{font-style:normal;}
+a{
+  color:#000;
+}
+.first{
+		 width:100%;
+         -webkit-flex-shrink:0;
+	     display:-webkit-flex;
+		-webkit-flex-direction:column;
+		overflow:hidden;
+ }
+ .header{
+			background:#ff5046;
+			line-height:.87rem;
+			color:white;
+			display:-webkit-flex;
+      a{
+        color:#fff;
+      }
+			p{
+				-webkit-flex:1;
+				font-size:.38rem;
+				&:nth-child(1){
+					.fa{
+						margin-left:.26rem;
+						margin-right:.66rem;
+					}
+				}
+				&:nth-child(2){
+					text-align:center;
+					font-size:.4rem;
+				}
+				&:nth-child(3){
+					text-align:right;
+					.fa{
+						margin-right:.26rem;
+						margin-left:.66rem;
+					}
+				}
+			}
+  }
+ .main{
+        	-webkit-flex:1;
+        	background:#f5f5f5;
+        	overflow:hidden;
+        	position:relative;
+        	.scroll{
+                &>div{
+                    width:100%;
+                    height:100%;
+	        		 position:absolute;
+	        	    }
+	          .main_one{
+	        		background:#fff;
+	        		display:-webkit-flex;
+	        		-webkit-flex-wrap:wrap;
+            	dl{
+	        			width:50%;
+	        			display:-webkit-flex;
+	        			height:1.51rem;
+	        			
+	        			&:nth-child(1){
+	        				border-right:1px solid #f5f5f5;
+	        				border-bottom:1px solid #f5f5f5;
+	        			}
+	        			&:nth-child(3){
+	        				border-right:1px solid #f5f5f5;
+	        			}
+	        			&:nth-child(2){
+	        				border-bottom:1px solid #f5f5f5;
+	        			}
+	        			dt{
+	        				width:.66rem;
+	        				height:.69rem;
+	        				border-radius:50%;
+	        				background:#ff5046;
+	        				text-align:center;
+	        				line-height:.69rem;
+	        				i{
+	        					color:#fff;
+							}
+							margin-left:.43rem;
+							margin-top:.43rem;
+	        			}
+	        			dd{
+	        				-webkit-flex:1;
+	        				padding-top:.43rem;
+	        				margin-left:.15rem;
+	        				b{
+	        					display:block;
+	        					font-weight:500;
+	        				}
+	        				span{
+	        					display:block;
+	        					color:#ccc;
+	        					margin-top:.1rem;
+	        				}
+	        			}
+	        		}
+	        	}
+	        	.main_two{
+	        		background:#fff;
+	        		h6{
+	        			line-height:.7rem;
+	        			text-align:center;
+	        		}
+	        		ul{
+	        			li{
+	        				display:-webkit-flex;
+	        				&:nth-child(1){
+	        					border-bottom:1px solid #ccc;
+	        				}
+	        				p{
+	        					-webkit-flex:1;
+	        					margin-left:.29rem;
+
+	        					b{
+	        						display:block;
+	        						font{
+	        							size:.4rem;
+	        							weight:600;
+	        						}
+	        						padding-top:.1rem;
+	        					}
+	        					span{
+	        						display:block;
+	        						color:#ccc;
+	        						padding:.1rem 0;
+	        					}	
+	        				}
+	        				i{
+	        					float:right;
+	        					margin-right:.3rem;
+	        					margin-top:.23rem;
+	        				}
+	        			}
+	        		}
+	        	}
+	        	.main_thr{
+	        		background:#fff;
+	        		h6{
+	        			line-height:.7rem;
+	        			text-align:center;
+	        		}
+	        		dl{
+	        			display:-webkit-flex;
+	        			border-bottom:1px solid #ccc;
+	        			padding:.15rem 0;
+	        			dt{
+	        				width:1rem;
+	        				height:.91rem;
+	        				margin:0 .15rem 0 .27rem;
+	        				img{
+	        					width:100%;
+	        					height:100%;
+	        				}
+	        			}
+	        			dd{
+	        				-webkit-flex:1;
+	        				margin-top:.13rem;
+	        				b{
+	        					font-weight:500;
+	        					display:block;
+	        				}
+	        				span{
+	        					color:#ccc;
+	        					display:block;
+	        					margin-top:.1rem;
+	        				}
+	        			}
+	        			i{
+	        				font-size:.6rem;
+	        				color:#ccc;
+	        				margin-top:.25rem;
+	        				margin-right:.2rem;
+
+	        			}
+	        		}
+	        	}
+            }
+            .find1{
+        		.tu{
+        			width:100%;
+        			height:.7rem;
+        			line-height:.7rem;
+        			background:#fff;
+        			display:-webkit-flex;
+        			li{
+        			    -webkit-flex:1;
+        			    text-align:center;
+        			    span{
+        					height:100%;
+        					display:inline-block;
+        			    }
+        			}
+        			.r{
+        			   height:100%;
+        			   span{
+        				border-bottom:2px solid #ff5046;
+        			   }
+        			}
+        		}
+        		.b{
+        			height:3.2rem;
+              width:100%;
+        			ul{
+        				height:100%;
+                width:100%;
+        				display:-webkit-flex;
+        				li{
+        					-webkit-flex-shrink:0;
+        					height:100%;
+                  width:100%;
+        					img{
+        						height:100%;
+                    width:100%;
+        					}
+        				}
+        			}
+        		}
+                        .dian{
+                                background:#fff;
+                                display:-webkit-flex;
+                                padding:.22rem 0;
+                                dl{
+                                  -webkit-flex:1;
+                                  position:relative;
+                                  padding-left:.2rem;
+                                 &:nth-of-type(2){
+                                        img{
+                                           width:.42rem;
+                                           height:.42rem;
+                                        }
+                                  }
+                                  dt{
+                                        display:inline-block;
+                                        width:.84rem;
+                                        background:#ff630e;
+                                        height:.84rem;
+                                        border-radius:.5rem;
+                                        text-align:center;
+                                        img{
+                                                width:.3rem;
+                                                height:.56rem;
+                                                 margin-top:.18rem;
+                                        }
+                                  }
+                                  dd{
+                                        display:inline-block;
+                                        margin-left:.18rem;
+                                        position:absolute;
+                                        top:.24rem;
+                                  }
+                                }
+                        }
+                        .dian_bot{
+                           .top{
+                                 margin-top:.2rem;
+                                 background:#fff;
+                                 padding:0 .3rem;
+                                 dl{
+                                             padding-top:.2rem;
+                                             display:-webkit-flex;
+                                                dt{
+                                                        width:1.04rem;
+                                                        height:1.04rem;
+                                                        border-radius:.5rem;
+                                                        background:url('../music/32.png') no-repeat;
+                                                        background-size:cover;
+                                                }
+                                                 dd{
+                                                                -webkit-flex:1;
+                                                                margin-top:.25rem;
+                                                                margin-left:.1rem;
+                                                                font-size:.3rem;
+                                                                color:#999;
+                                                                b{
+                                                                        color:#666;
+                                                                }
+                                                   }
+                                }
+                                &>p{
+                                        line-height:.5rem;
+                                        background:#f6f6f6;
+                                        position:relative;
+                                        margin-top:.3rem;
+                                        padding-left:.1rem;
+                                        padding:.1rem;
+                                                b{
+                                                        position:absolute;
+                                                        top:-20px;
+                                                        left:.3rem;
+                                                        width:.0rem;
+                                                        height:0rem;
+                                                        border:10px solid transparent;
+                                                        border-bottom:10px solid #f6f6f6;
+                                                }
+                                }
+                                   .div{
+                                               background:#fff;
+                                               height:.6rem;
+                                               line-height:.6rem;
+                                             p{
+                                                 &:nth-of-type(1){
+                                                        float:left;
+                                                  }
+                                                 &:nth-of-type(2){
+                                                        float:right;
+                                                 }
+                                                }
+                                                span{
+                                                        margin-right:.15rem;
+                                                        img{
+                                                                width:.2rem;
+                                                                height:.2rem;
+                                                                margin-right:.05rem;
+                                                        }
+                                                }
+                                        }
+                                 }  
+                                 .top1{
+                                         dl{
+                                             dt{
+                                                               
+                                                background:url('../music/31.png') no-repeat;
+                                                background-size:cover;
+                                              }
+                                 }
+                           }
+                        }
+        
+        	}
+}
+.footer{
+        border-top:1px solid #ff7067;
+        a{
+          width:100%;
+          display:inline-block;
+        }
+        .dls{
+        		display:-webkit-flex;
+        		padding:.15rem 0;
+        		dt{
+        			width: .78rem;
+        			height: .79rem;
+        			margin-left:.26rem;
+        			margin-right:.18rem;
+        			img{
+        				width:100%;
+        				height:100%;
+        			}
+        		}
+        		dd{
+        			-webkit-flex:1;
+        			p{
+        				&:nth-of-type(1){
+	        				font-family:"MicroSoft Yahei";
+	        			}
+	        			&:nth-of-type(2){
+	        				font-size:.2rem;
+	        				color:#666;
+	        				margin-top:.05rem;
+	        			}
+        			}
+
+        		}
+        		span{
+        			i{
+        				color:#ff5046;
+        				margin-top:.2rem;
+        				&:nth-of-type(2){
+        					margin-right:.4rem;
+        				}
+        				&:nth-of-type(1){
+        					margin-right:.3rem;
+        				}
+        			}
+        		}
+        }
+        .dl1{
+             background:#fff;
+             margin-top:.2rem;
+             dt{
+        		width:.82rem;
+        	    height:.79rem;
+        	    margin-left:.3rem;
+        	    p{
+        	    	color:#ccc;
+        	    }
+             }
+        }
+}

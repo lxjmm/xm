@@ -1,0 +1,27 @@
+/*
+	定义插件的方法：类级别的插件和对象级别的插件
+	  1.$.插件名=function(){}	调用：$.插件名（）
+	  	$.extend={
+			插件名1:function(){},
+			插件名2:function(){}	
+	  	}
+	  2.$.fn.插件名=function(){} 
+	  	$.fn.extend={
+			插件名1:function(){},
+			插件名2:function(){}	
+	  	} 
+
+	function Fn(){
+		this.name=""
+	}
+	fn.prototype={
+		aaa:function(){
+			
+		},
+		bbb:function(){
+	
+		}
+
+
+	}
+*/

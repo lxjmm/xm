@@ -1,0 +1,115 @@
+function config($stateProvider,$urlRouterProvider,$ocLazyLoadProvider){
+		
+		$urlRouterProvider.otherwise('/index');
+		$stateProvider
+			.state('first',{
+				url:'/first',
+				templateUrl:'view/fir.html'
+				
+			})
+			.state('login',{
+				url:'/login',
+				templateUrl:'view/login.html'
+				
+			})
+			.state('index',{
+				url:'/index',
+				templateUrl:'view/index.html'
+			})
+			
+			.state('localmusic',{
+				url:'/localmusic',
+				templateUrl:'view/localmusic.html'
+			})
+			.state('yinyue',{
+				url:'/yinyue',
+				templateUrl:'view/yinyue.html'
+			})
+			.state('find1',{
+				url:'/find1',
+				templateUrl:'view/find1.html'
+			})
+			.state('downloadmusic',{
+				url:'/downloadmusic',
+				templateUrl:'view/downloadmusic.html'
+			})
+			.state('norfor',{
+				url:'/norfor',
+				templateUrl:'view/norfor.html'
+			})
+			.state('xr',{
+				url:'/xr',
+				templateUrl:'view/xr.html'
+			})
+			.state('listennot',{
+				url:'/listennot',
+				templateUrl:'view/listennot.html'
+			})
+			.state('listen',{
+				url:'/listen',
+				templateUrl:'view/listen.html'
+			})
+			.state('lovemusic',{
+				url:'/lovemusic',
+				templateUrl:'view/lovemusic.html',
+			})
+			.state('paihang',{
+				url:'/paihang',
+				templateUrl:'view/paihang.html'
+			})
+			.state('gedan',{
+				url:'/gedan',
+				templateUrl:'view/gedan.html'
+			})
+			.state('xianchang',{
+				url:'/xianchang',
+				templateUrl:'view/xianchang.html'
+			})
+			.state('dongtai1',{
+				url:'/dongtai1',
+				templateUrl:'view/dongtai1.html'
+			})
+			.state('woyaocha',{
+				url:'/woyaocha',
+				templateUrl:'view/woyaocha.html'
+			})
+			.state('singers1',{
+				url:'/singers1',
+				templateUrl:'view/singers1.html'
+			})
+			.state('huayuman1',{
+				url:'/huayuman1',
+				templateUrl:'view/huayuman1.html'
+			})
+			.state('hot',{
+				url:'/hot',
+				templateUrl:'view/hot.html'
+			})
+			.state('singer',{
+				url:'/singer',
+				templateUrl:'view/singer.html'
+			})
+			.state('havedian',{
+				url:'/havedian',
+				templateUrl:'view/havedian.html'
+			})
+			.state('locallu',{
+				url:'/locallu',
+				templateUrl:'view/locallu.html'
+			})
+			
+}
+angular.module('myapp')
+				.config(config);
+/*
+
+				resolve:{
+					loadPlugin:function($ocLazyLoad){
+					return $ocLazyLoad.load([
+								  {
+									files:['./js/zepto.min.js','./js/IScroll.js']
+								  }
+								])
+					}
+				}
+*/

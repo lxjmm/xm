@@ -1,0 +1,260 @@
+html,body,.above{
+	width:100%;
+	height:100%;
+}
+.above{
+	display:-webkit-flex;
+	-webkit-flex-direction:column;
+	font-size:.3rem;
+	&>div{
+		width:100%;
+		height:100%;
+	}
+}
+b{font-weight:300;}
+i{font-style:normal;}
+a{
+    color:#000;
+}
+.header{
+			background:#ff5046;
+			line-height:.87rem;
+			color:white;
+			display:-webkit-flex;
+            a{
+               color:#fff;
+            }
+			p{
+				-webkit-flex:1;
+				font-size:.38rem;
+				&:nth-child(1){
+					.fa{
+						margin-left:.26rem;
+						margin-right:.66rem;
+					}
+				}
+				&:nth-child(2){
+					text-align:center;
+					font-size:.4rem;
+				}
+				&:nth-child(3){
+					text-align:right;
+					.fa{
+						margin-right:.26rem;
+						margin-left:.66rem;
+					}
+				}
+			}
+  }
+.main{
+  -webkit-flex:1;
+  overflow:hidden;
+  .tui{
+		width:100%;
+		height:.7rem;
+		line-height:.7rem;
+		display:-webkit-flex;
+		li{
+			-webkit-flex:1;
+			text-align:center;
+			span{
+				height:100%;
+				display:inline-block;
+			}
+		}
+        .r{
+        	height:100%;
+        	span{
+        		border-bottom:2px solid #ff5046;
+        	}
+        }
+  }
+  .gedan1{
+        	background:#f5f5f5;
+        		&>div{
+        			padding-top:.14rem;
+        		}
+        		ul{
+        			width:2.91rem;
+        			height:.34rem;
+        			border:1px solid #000;
+        			display:-webkit-flex;
+        			margin:auto;
+        			li{
+        				-webkit-flex:1;
+        				text-align:center;
+        				line-height:.34rem;
+        				font-size:.3rem;
+        				&:nth-of-type(2){
+        					border-right:1px solid #000;
+        				}
+        			}
+        			.b{
+        				background:#000;
+        				color:#fff;
+        			}
+        		}
+        		.april{
+        			.d_one{
+        				margin-top:.21rem;
+        				display:-webkit-flex;
+        				padding:0 .15rem 0 .3rem;
+        				background:#fff;
+        				&:nth-of-type(1){
+        					dl{
+	        					background:url("../music/51.png") no-repeat;
+	        					background-size:100% 100%;
+	        				}
+	        			}
+        				&:nth-of-type(2){
+        					dl{
+	        					background:url("../music/50.png") no-repeat;
+	        					background-size:100% 100%;
+
+	        				}
+	        			}
+	        			&:nth-of-type(3){
+	        				dl{
+	        					background:url("../music/49.png") no-repeat;
+	        					background-size:100% 100%;
+
+	        				}
+	        			}
+	        			&:nth-of-type(4){
+	        				dl{
+	        					background:url("../music/48.png") no-repeat;
+	        					background-size:100% 100%;
+
+	        				}
+	        			}
+        				dl{
+        					position:relative;
+	        				width:2.17rem;
+	        				height:2.16rem;
+	        				dt{	
+	        					width:.51rem;
+	        					height:.51rem;
+	        					position:absolute;
+	        					bottom:.23rem;
+	        					right:.13rem;
+	        					z-index:999;
+	        					img{
+	        						width:100%;
+	        						height:100%;
+	        					}
+	        				}
+	        				dd{
+	        					background:rgba(0,0,0,0.5);
+	        					line-height:.48rem;
+	        					padding-left:.1rem;
+	        					span{
+	        						margin-right:.1rem;
+	        					}
+	        					position:absolute;
+	        					bottom:0;
+	        					left:0;
+	        					color:#fff;
+	        					width:100%;
+	        					z-index:99;
+	        					font-size:.2rem;
+	        				}
+	        			}
+	        			&>div{
+	        				position:relative;
+	        				padding-top:.47rem;
+	        				-webkit-flex:1;
+	        				margin-left:.1rem;
+	        				p{
+	        					b{
+	        						display:block;
+	        						line-height:.56rem;
+	        						font-weight:500;
+
+	        					}
+	        					i{
+	        							width:3.13rem;
+	        							overflow:hidden;
+	        							white-space:nowrap;
+	        							text-overflow:ellipsis;
+	        							display:inline-block;
+	        						}
+	        					img{
+	        						width:.21rem;
+	        						height:.2rem;
+	        					}
+	        				}
+	        				span{
+	        					position:absolute;
+	        					bottom:0;
+	        					right:0;
+	        					img{
+	        						width:.63rem;
+	        						height:.63rem;
+
+	        					}
+	        				}
+	        			}
+        			}
+        			
+        		}	
+  }
+}
+.footer{
+        border-top:1px solid #ff7067;
+        a{
+        	width:100%;
+        	display:inline-block;
+        }
+       .dls{
+        		display:-webkit-flex;
+        		padding:.15rem 0;
+        		dt{
+        			width: .78rem;
+        			height: .79rem;
+        			margin-left:.26rem;
+        			margin-right:.18rem;
+        			img{
+        				width:100%;
+        				height:100%;
+        			}
+        		}
+        		dd{
+        			-webkit-flex:1;
+        			p{
+        				&:nth-of-type(1){
+	        				font-family:"MicroSoft Yahei";
+	        			}
+	        			&:nth-of-type(2){
+	        				font-size:.2rem;
+	        				color:#666;
+	        				margin-top:.05rem;
+	        			}
+        			}
+
+        		}
+        		span{
+        			i{
+        				color:#ff5046;
+        				margin-top:.2rem;
+        				&:nth-of-type(2){
+        					margin-right:.4rem;
+        				}
+        				&:nth-of-type(1){
+        					margin-right:.3rem;
+        				}
+        			}
+        		}
+        }
+        .dl1{
+             background:#fff;
+             margin-top:.2rem;
+             dt{
+        		width:.82rem;
+        	    height:.79rem;
+        	    margin-left:.3rem;
+        	    p{
+        	    	color:#ccc;
+        	    }
+             }
+        }
+}

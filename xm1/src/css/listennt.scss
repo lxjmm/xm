@@ -1,0 +1,267 @@
+html,body,.above{
+		width:100%;
+		height:100%;
+}
+i,em{
+		font-style:normal;
+}
+.above{
+		display:-webkit-flex;
+		-webkit-flex-direction:column;
+		font-size:.2rem;
+		overflow:hidden;
+}
+.header{
+	background:#ff5046;
+	line-height:.86rem;
+	display:-webkit-flex;
+		a{
+			color:#fff;
+			font-size:.7rem;
+		}
+		span{
+			-webkit-flex:1;
+			&:nth-child(1){
+				margin-left:.26rem;
+				font-size:.5rem;
+				color:#fff;
+			}
+			&:nth-child(2){
+				text-align:center;
+				-webkit-flex:2;
+				color:#fff;
+				font-size:.4rem;
+				font-weight:500;
+			}
+		}
+}
+.main{
+	-webkit-flex:1;
+	background:#f5f5f5;
+	overflow:hidden;
+	.scroll{
+
+		.ca{
+			background:url('../music/6.png') no-repeat;
+			background-size:cover;
+			height:4.89rem;
+			position:relative;
+			.c{
+				display:-webkit-flex;
+				position:absolute;
+				bottom:.5rem;
+				width:100%;
+				span{
+					-webkit-flex:1;
+					color:#fff;
+					&:nth-of-type(1){
+						margin-top:.2rem;
+						text-align:center;
+						img{
+							width:.35rem;
+							height:.38rem;
+						}
+					}
+					&:nth-of-type(5){
+						margin-top:.2rem;
+						text-align:center;
+						img{
+							width:.35rem;
+							height:.38rem;
+						}
+					}
+					&:nth-of-type(2){
+						margin-top:.2rem;
+						text-align:right;
+						i{
+							width:.65rem;
+							height:.65rem;
+							border:1px solid #fff;
+							display:inline-block;
+							border-radius:.5rem;
+							text-align:center;
+							line-height:.65rem;
+							img{
+								width:.34rem;
+								height:.24rem;
+							}
+						}
+						
+					}
+					&:nth-of-type(4){
+						margin-top:.2rem;
+						i{
+							width:.65rem;
+							height:.65rem;
+							border:1px solid #fff;
+							display:inline-block;
+							border-radius:.5rem;
+							text-align:center;
+							line-height:.65rem;
+							img{
+								width:.34rem;
+								height:.24rem;
+							}
+						}
+						
+					}
+					&:nth-of-type(3){
+						-webkit-flex:2;
+						text-align:center;
+						i{
+							width:.9rem;
+							height:.9rem;
+							display:inline-block;
+							img{
+								width:100%;
+								height:100%;
+							}
+						}
+					
+					}
+				}
+			}
+		}
+		.top{
+			margin-top:.2rem;
+			background:#fff;
+			padding:0 .3rem;
+			dl{
+				padding-top:.2rem;
+				display:-webkit-flex;
+				dt{
+					width:1.04rem;
+					height:1.04rem;
+					border-radius:.5rem;
+					background:url('../music/77.png') no-repeat 25% 30%;
+					
+				}
+				dd{
+					-webkit-flex:1;
+					margin-top:.25rem;
+					margin-left:.1rem;
+					font-size:.3rem;
+					color:#999;
+					b{
+						color:#666;
+					}
+				}
+			}
+			&>p{
+				line-height:.7rem;
+				background:#ccc;
+				height:.7rem;
+				position:relative;
+				margin-top:.3rem;
+				padding-left:.1rem;
+				b{
+					position:absolute;
+					top:-20px;
+					left:.3rem;
+					width:.0rem;
+					height:0rem;
+					border:10px solid transparent;
+					border-bottom:10px solid #ccc;
+				}
+			}
+			.div{
+				p{
+					&:nth-of-type(1){
+						float:left;
+					}
+					&:nth-of-type(2){
+						float:right;
+					}
+				}
+				margin-top:.22rem;
+				span{
+					margin-right:.15rem;
+					img{
+						width:.2rem;
+						height:.2rem;
+						margin-right:.05rem;
+					}
+				}
+			}
+			&>img{
+				width:1.5rem;
+			}
+		}
+		.bot{
+			margin-top:.2rem;
+			background:#fff;
+			h4{
+				line-height:.84rem;
+				text-align:center;
+				font-size:.3rem;
+			}
+			ul{
+				padding-bottom:.2rem;
+				li{
+					padding-left:.2rem;
+					position:relative;
+					padding-top:.2rem;
+					b{
+						font-size:.3rem;
+						position:absolute;
+						top:.5rem;
+					}
+					&>img{
+						position:absolute;
+						right:.2rem;
+						top:.3rem;
+					}
+					dl{
+						display:-webkit-flex;
+						margin-left:.37rem;
+						dt{
+							width:.76rem;
+							height:.76rem;
+							border-radius:.5rem;
+							background:url('../music/76.png') no-repeat;
+							background-position:20% 20%;
+						}
+						dd{
+							margin-left:.2rem;
+							font-size:.2rem;
+							i{
+								font-size:.3rem;
+								font-weight:600;
+							}
+							
+						}
+					}
+					&:nth-of-type(odd){
+						border-bottom:1px solid #ccc;
+						padding-bottom:.2rem;
+					}
+				}
+			}
+		}
+	}
+
+}
+.footer{
+	height:1.11rem;
+	background:#ff5046;
+	display:-webkit-flex;
+	dl{
+		-webkit-flex:1;
+		margin-top:.1rem;
+		dt{
+			width:.45rem;
+			height:.51rem;
+			margin:0 auto;
+			img{
+				width:100%;
+				height:100%;
+			}
+		}
+		dd{
+			color:#ffdedc;
+			margin-top:.1rem;
+			font-size:.3rem;
+			text-align:center;
+		}
+	}	
+}

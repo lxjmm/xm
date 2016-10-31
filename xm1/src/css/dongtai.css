@@ -1,0 +1,258 @@
+html, body, .above {
+  width: 100%;
+  height: 100%; }
+
+i, em {
+  font-style: normal; }
+
+.above {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  font-size: .3rem;
+  overflow: hidden; }
+
+.header {
+  background: #ff5046;
+  z-index: 999;
+  line-height: .86rem;
+  display: -webkit-flex; }
+  .header a {
+    color: white; }
+  .header span {
+    -webkit-flex: 1; }
+    .header span:nth-child(1) {
+      margin-left: .26rem;
+      font-size: .6rem;
+      color: #fff; }
+    .header span:nth-child(2) {
+      text-align: center;
+      -webkit-flex: 2;
+      color: #fff;
+      font-size: .35rem; }
+
+.mai {
+  background: #f5f5f5;
+  -webkit-flex: 1;
+  padding-top: .1rem;
+  overflow: hidden; }
+  .mai ul {
+    display: -webkit-flex;
+    width: 2rem;
+    height: .35rem;
+    font-size: .2rem;
+    border: 1px solid #000;
+    margin: 0 auto; }
+    .mai ul li {
+      -webkit-flex: 1;
+      text-align: center; }
+      .mai ul li:nth-of-type(1) {
+        color: #fff;
+        background: #000; }
+        .mai ul li:nth-of-type(1) a {
+          color: #fff; }
+  .mai .to {
+    width: 100%;
+    margin-top: .1rem; }
+    .mai .to dl {
+      height: 1.96rem;
+      padding: .23rem .28rem;
+      background: #fff;
+      display: -webkit-flex;
+      position: relative;
+      margin-bottom: .2rem; }
+      .mai .to dl:nth-child(2) dt {
+        background: url("../music/29.png");
+        background-size: 100%; }
+      .mai .to dl:nth-child(3) dt {
+        background: url("../music/27.png");
+        background-size: 100%; }
+      .mai .to dl:nth-child(4) dt {
+        background: url("../music/26.png");
+        background-size: 100%; }
+      .mai .to dl:nth-child(5) dt {
+        background: url("../music/25.png");
+        background-size: 100%; }
+      .mai .to dl:nth-child(6) dt {
+        background: url("../music/24.png");
+        background-size: 100%; }
+      .mai .to dl dt {
+        width: 1.29rem;
+        height: 1.29rem;
+        border-radius: .5rem;
+        background: url("../music/20.png");
+        background-size: 100%; }
+      .mai .to dl dd {
+        -webkit-flex: 1;
+        margin-left: .1rem; }
+        .mai .to dl dd b {
+          display: block; }
+      .mai .to dl i {
+        position: absolute;
+        right: .58rem;
+        top: .5rem;
+        text-align: center; }
+        .mai .to dl i img {
+          display: block;
+          width: .37rem;
+          height: .29rem;
+          margin: auto; }
+      .mai .to dl .div {
+        height: .6rem;
+        line-height: .6rem;
+        position: absolute;
+        bottom: -.08rem;
+        left: .23rem; }
+        .mai .to dl .div p:nth-of-type(1) {
+          float: left; }
+        .mai .to dl .div p:nth-of-type(2) {
+          float: right; }
+        .mai .to dl .div span {
+          margin-right: .15rem; }
+          .mai .to dl .div span img {
+            width: .2rem;
+            height: .2rem;
+            margin-right: .05rem; }
+  .mai .hot .y {
+    padding-top: .2rem;
+    height: .88rem;
+    color: #fad189; }
+    .mai .hot .y h4 {
+      border-top: 1px solid #fad189;
+      width: 4.19rem;
+      margin: auto;
+      text-align: center; }
+      .mai .hot .y h4 b {
+        display: block;
+        position: relative;
+        top: -.2rem;
+        left: .4rem;
+        background: #f5f5f5;
+        width: 80%; }
+  .mai .hot dl:nth-of-type(2) dt {
+    background: url("../music/25.png");
+    background-size: 100%; }
+  .mai .hot dl:nth-of-type(3) dt {
+    background: url("../music/26.png");
+    background-size: 100%; }
+  .mai .hot dl:nth-of-type(4) dt {
+    background: url("../music/24.png");
+    background-size: 100%; }
+  .mai .hot dl:nth-of-type(5) dt {
+    background: url("../music/22.png");
+    background-size: 100%; }
+  .mai .hot dl:nth-of-type(6) dt {
+    background: url("../music/21.png");
+    background-size: 100%; }
+
+.main {
+  -webkit-flex: 1;
+  overflow: hidden;
+  background: #f5f5f5; }
+  .main ul {
+    margin-top: .22rem;
+    background: #fff;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    padding: .16rem 0; }
+    .main ul li {
+      width: 25%;
+      -webkit-flex-shrink: 0; }
+      .main ul li a {
+        width: 100%;
+        display: inline-block; }
+      .main ul li dl {
+        margin-bottom: .2rem; }
+        .main ul li dl dt {
+          text-align: center;
+          margin: 0 auto;
+          width: 1.04rem;
+          height: 1.04rem;
+          border-radius: .5rem;
+          line-height: 1.04rem; }
+          .main ul li dl dt img {
+            margin-top: .2rem; }
+        .main ul li dl dd {
+          text-align: center;
+          margin-top: .15rem; }
+      .main ul li:nth-of-type(1) dl dt {
+        background: #638dbd; }
+        .main ul li:nth-of-type(1) dl dt img {
+          width: .56rem;
+          height: .56rem; }
+      .main ul li:nth-of-type(2) dl dt {
+        background: #8ec482; }
+        .main ul li:nth-of-type(2) dl dt img {
+          width: .56rem;
+          height: .56rem; }
+      .main ul li:nth-of-type(3) dl dt {
+        background: #7695ed; }
+        .main ul li:nth-of-type(3) dl dt img {
+          width: .56rem;
+          height: .56rem; }
+      .main ul li:nth-of-type(4) dl dt {
+        background: #cb55e8; }
+        .main ul li:nth-of-type(4) dl dt img {
+          width: .56rem;
+          height: .56rem; }
+      .main ul li:nth-of-type(5) dl dt {
+        background: #ec5b9f; }
+        .main ul li:nth-of-type(5) dl dt img {
+          width: .56rem;
+          height: .56rem; }
+      .main ul li:nth-of-type(6) dl dt {
+        background: #fb8472; }
+        .main ul li:nth-of-type(6) dl dt img {
+          width: .56rem;
+          height: .56rem; }
+  .main .bot {
+    margin-top: .2rem; }
+    .main .bot dl {
+      position: relative; }
+      .main .bot dl dd {
+        padding: .22rem 0 .22rem .28rem;
+        position: absolute;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        bottom: 0;
+        left: 0;
+        color: #fff; }
+    .main .bot .big {
+      width: 100%;
+      height: 3.06rem;
+      position: relative;
+      background: url("../music/13.png") no-repeat;
+      background-size: cover; }
+      .main .bot .big dd {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 1.06rem;
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        width: 100%;
+        padding: .22rem .24rem; }
+    .main .bot .t {
+      display: -webkit-flex;
+      -webkit-flex-wrap: wrap; }
+      .main .bot .t dl {
+        margin-top: .1rem;
+        margin-right: .1rem;
+        height: 3.11rem;
+        -webkit-flex-shrink: 0;
+        width: 49%; }
+        .main .bot .t dl:nth-of-type(2n) {
+          margin-right: 0; }
+        .main .bot .t dl:nth-of-type(1) {
+          background: url("../music/10.png") no-repeat;
+          background-size: 100% 100%; }
+        .main .bot .t dl:nth-of-type(2) {
+          background: url("../music/11.png") no-repeat;
+          background-position: 20% 20%; }
+        .main .bot .t dl:nth-of-type(3) {
+          background: url("../music/12.png") no-repeat;
+          background-size: 100% 100%; }
+        .main .bot .t dl:nth-of-type(4) {
+          background: url("../music/9.png") no-repeat;
+          background-size: 100% 100%; }
+
+/*# sourceMappingURL=dongtai.css.map */

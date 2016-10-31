@@ -1,0 +1,193 @@
+html, body, .above {
+  width: 100%;
+  height: 100%; }
+
+.above {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  font-size: .3rem; }
+  .above > div {
+    width: 100%;
+    height: 100%; }
+
+b {
+  font-weight: 300; }
+
+i {
+  font-style: normal; }
+
+a {
+  color: #000; }
+
+.header {
+  background: #ff5046;
+  line-height: .87rem;
+  color: white;
+  display: -webkit-flex; }
+  .header a {
+    color: #fff; }
+  .header p {
+    -webkit-flex: 1;
+    font-size: .38rem; }
+    .header p:nth-child(1) .fa {
+      margin-left: .26rem;
+      margin-right: .66rem; }
+    .header p:nth-child(2) {
+      text-align: center;
+      font-size: .4rem; }
+    .header p:nth-child(3) {
+      text-align: right; }
+      .header p:nth-child(3) .fa {
+        margin-right: .26rem;
+        margin-left: .66rem; }
+
+.main {
+  -webkit-flex: 1;
+  overflow: hidden; }
+  .main .tui {
+    width: 100%;
+    height: .7rem;
+    line-height: .7rem;
+    display: -webkit-flex; }
+    .main .tui li {
+      -webkit-flex: 1;
+      text-align: center; }
+      .main .tui li span {
+        height: 100%;
+        display: inline-block; }
+    .main .tui .r {
+      height: 100%; }
+      .main .tui .r span {
+        border-bottom: 2px solid #ff5046; }
+  .main .gedan1 {
+    background: #f5f5f5; }
+    .main .gedan1 > div {
+      padding-top: .14rem; }
+    .main .gedan1 ul {
+      width: 2.91rem;
+      height: .34rem;
+      border: 1px solid #000;
+      display: -webkit-flex;
+      margin: auto; }
+      .main .gedan1 ul li {
+        -webkit-flex: 1;
+        text-align: center;
+        line-height: .34rem;
+        font-size: .3rem; }
+        .main .gedan1 ul li:nth-of-type(2) {
+          border-right: 1px solid #000; }
+      .main .gedan1 ul .b {
+        background: #000;
+        color: #fff; }
+    .main .gedan1 .april .d_one {
+      margin-top: .21rem;
+      display: -webkit-flex;
+      padding: 0 .15rem 0 .3rem;
+      background: #fff; }
+      .main .gedan1 .april .d_one:nth-of-type(1) dl {
+        background: url("../music/51.png") no-repeat;
+        background-size: 100% 100%; }
+      .main .gedan1 .april .d_one:nth-of-type(2) dl {
+        background: url("../music/50.png") no-repeat;
+        background-size: 100% 100%; }
+      .main .gedan1 .april .d_one:nth-of-type(3) dl {
+        background: url("../music/49.png") no-repeat;
+        background-size: 100% 100%; }
+      .main .gedan1 .april .d_one:nth-of-type(4) dl {
+        background: url("../music/48.png") no-repeat;
+        background-size: 100% 100%; }
+      .main .gedan1 .april .d_one dl {
+        position: relative;
+        width: 2.17rem;
+        height: 2.16rem; }
+        .main .gedan1 .april .d_one dl dt {
+          width: .51rem;
+          height: .51rem;
+          position: absolute;
+          bottom: .23rem;
+          right: .13rem;
+          z-index: 999; }
+          .main .gedan1 .april .d_one dl dt img {
+            width: 100%;
+            height: 100%; }
+        .main .gedan1 .april .d_one dl dd {
+          background: rgba(0, 0, 0, 0.5);
+          line-height: .48rem;
+          padding-left: .1rem;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          color: #fff;
+          width: 100%;
+          z-index: 99;
+          font-size: .2rem; }
+          .main .gedan1 .april .d_one dl dd span {
+            margin-right: .1rem; }
+      .main .gedan1 .april .d_one > div {
+        position: relative;
+        padding-top: .47rem;
+        -webkit-flex: 1;
+        margin-left: .1rem; }
+        .main .gedan1 .april .d_one > div p b {
+          display: block;
+          line-height: .56rem;
+          font-weight: 500; }
+        .main .gedan1 .april .d_one > div p i {
+          width: 3.13rem;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          display: inline-block; }
+        .main .gedan1 .april .d_one > div p img {
+          width: .21rem;
+          height: .2rem; }
+        .main .gedan1 .april .d_one > div span {
+          position: absolute;
+          bottom: 0;
+          right: 0; }
+          .main .gedan1 .april .d_one > div span img {
+            width: .63rem;
+            height: .63rem; }
+
+.footer {
+  border-top: 1px solid #ff7067; }
+  .footer a {
+    width: 100%;
+    display: inline-block; }
+  .footer .dls {
+    display: -webkit-flex;
+    padding: .15rem 0; }
+    .footer .dls dt {
+      width: .78rem;
+      height: .79rem;
+      margin-left: .26rem;
+      margin-right: .18rem; }
+      .footer .dls dt img {
+        width: 100%;
+        height: 100%; }
+    .footer .dls dd {
+      -webkit-flex: 1; }
+      .footer .dls dd p:nth-of-type(1) {
+        font-family: "MicroSoft Yahei"; }
+      .footer .dls dd p:nth-of-type(2) {
+        font-size: .2rem;
+        color: #666;
+        margin-top: .05rem; }
+    .footer .dls span i {
+      color: #ff5046;
+      margin-top: .2rem; }
+      .footer .dls span i:nth-of-type(2) {
+        margin-right: .4rem; }
+      .footer .dls span i:nth-of-type(1) {
+        margin-right: .3rem; }
+  .footer .dl1 {
+    background: #fff;
+    margin-top: .2rem; }
+    .footer .dl1 dt {
+      width: .82rem;
+      height: .79rem;
+      margin-left: .3rem; }
+      .footer .dl1 dt p {
+        color: #ccc; }
+
+/*# sourceMappingURL=gedan.css.map */

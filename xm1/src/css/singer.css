@@ -1,0 +1,243 @@
+html, body, .above {
+  width: 100%;
+  height: 100%; }
+
+i, em {
+  font-style: normal; }
+
+.above {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  font-size: .3rem;
+  overflow: hidden; }
+
+.header {
+  background: #ff5046;
+  line-height: .86rem;
+  display: -webkit-flex; }
+  .header span {
+    -webkit-flex: 1; }
+    .header span:nth-child(1) {
+      margin-left: .26rem;
+      font-size: .6rem;
+      color: #fff; }
+      .header span:nth-child(1) a {
+        color: #fff; }
+    .header span:nth-child(2) {
+      text-align: center;
+      -webkit-flex: 2;
+      color: #fff;
+      font-size: .35rem; }
+
+.main {
+  -webkit-flex: 1;
+  overflow: hidden;
+  background: #f5f5f5; }
+  .main h4 {
+    line-height: .72rem;
+    font-size: .3rem;
+    text-align: center;
+    background: #fff;
+    width: 100%; }
+  .main .tt {
+    padding: .2rem 0;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    background: #fff; }
+    .main .tt dl {
+      width: 20%;
+      -webit-flex-shrink: 0;
+      margin-bottom: .1rem; }
+      .main .tt dl dt {
+        width: 1.03rem;
+        height: 1.03rem;
+        border-radius: .5rem;
+        margin: 0 auto;
+        position: relative; }
+      .main .tt dl dd {
+        text-align: center;
+        margin-top: .1rem; }
+      .main .tt dl:nth-of-type(1) dt {
+        background: url("../music/a6.png") no-repeat;
+        background-size: 100% 100%; }
+      .main .tt dl:nth-of-type(2) dt {
+        background: url("../music/a5.png") no-repeat;
+        background-size: 100% 100%; }
+      .main .tt dl:nth-of-type(3) dt {
+        background: url("../music/a4.png") no-repeat;
+        background-size: 100% 100%; }
+      .main .tt dl:nth-of-type(4) dt {
+        background: url("../music/a2.png") no-repeat;
+        background-size: 100% 100%; }
+      .main .tt dl:nth-of-type(5) dt {
+        background: url("../music/97.png") no-repeat;
+        background-size: 100% 100%; }
+      .main .tt dl:nth-of-type(6) dt {
+        background: url("../music/98.png") no-repeat;
+        background-size: 100% 100%; }
+      .main .tt dl:nth-of-type(7) dt {
+        background: url("../music/51.png") no-repeat;
+        background-size: 100% 100%; }
+      .main .tt dl:nth-of-type(8) dt {
+        background: url("../music/49.png") no-repeat;
+        background-size: 100% 100%; }
+      .main .tt dl:nth-of-type(9) dt {
+        background: url("../music/50.png") no-repeat;
+        background-size: 100% 100%; }
+      .main .tt dl:nth-of-type(10) dt {
+        background: url("../music/58.png") no-repeat;
+        background-size: 100% 100%; }
+  .main .bot {
+    margin-top: .2rem; }
+    .main .bot dl {
+      position: relative; }
+      .main .bot dl dd {
+        padding: .22rem 0 .22rem .28rem;
+        position: absolute;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        bottom: 0;
+        left: 0;
+        color: #fff; }
+    .main .bot .big {
+      width: 100%;
+      height: 3.06rem;
+      position: relative;
+      background: url("../music/13.png") no-repeat;
+      background-size: cover; }
+      .main .bot .big dd {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 1.06rem;
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        width: 100%;
+        padding: .22rem .24rem; }
+    .main .bot .t {
+      display: -webkit-flex;
+      -webkit-flex-wrap: wrap; }
+      .main .bot .t dl {
+        margin-top: .1rem;
+        margin-right: .1rem;
+        height: 3.11rem;
+        -webkit-flex-shrink: 0;
+        width: 49%; }
+        .main .bot .t dl:nth-of-type(2n) {
+          margin-right: 0; }
+        .main .bot .t dl:nth-of-type(1) {
+          background: url("../music/10.png") no-repeat;
+          background-size: 100% 100%; }
+        .main .bot .t dl:nth-of-type(2) {
+          background: url("../music/11.png") no-repeat;
+          background-position: 20% 20%; }
+        .main .bot .t dl:nth-of-type(3) {
+          background: url("../music/12.png") no-repeat;
+          background-size: 100% 100%; }
+        .main .bot .t dl:nth-of-type(4) {
+          background: url("../music/9.png") no-repeat;
+          background-size: 100% 100%; }
+  .main .pa li {
+    line-height: .93rem; }
+    .main .pa li a {
+      width: 100%;
+      display: inline-block; }
+  .main ul li {
+    background: #fff;
+    padding-left: .28rem;
+    color: #333;
+    border-bottom: 1px solid #ccc; }
+    .main ul li:nth-of-type(1) {
+      margin-top: .2rem; }
+    .main ul li:nth-of-type(4n) {
+      margin-top: .2rem; }
+    .main ul li span {
+      float: right;
+      margin-right: .25rem;
+      margin-top: .27rem;
+      font-size: .45rem; }
+  .main ol li {
+    margin-bottom: .2rem;
+    line-height: .93rem;
+    background: #fff;
+    font-size: .35rem;
+    padding-left: .3rem; }
+
+.m dl {
+  display: -webkit-flex;
+  background: #fff;
+  padding: .15rem .3rem;
+  position: relative;
+  margin-bottom: .09rem; }
+  .m dl dt {
+    margin-right: .12rem;
+    width: .84rem;
+    height: .84rem; }
+    .m dl dt img {
+      width: 100%;
+      height: 100%; }
+  .m dl dd {
+    -webkit-flex: 1; }
+    .m dl dd p:nth-of-type(2) {
+      font-size: .26rem;
+      color: #999;
+      margin: .03rem 0; }
+    .m dl dd p:nth-of-type(1) {
+      font-size: .24rem; }
+    .m dl dd p b {
+      font-weight: 500; }
+    .m dl dd img {
+      height: .2rem; }
+  .m dl .l {
+    position: absolute;
+    right: .3rem;
+    top: 50%;
+    margin-top: -.2rem;
+    padding: 0 .2rem;
+    border-radius: .3rem;
+    color: #fff;
+    text-align: center;
+    line-height: .4rem;
+    background: #ff5046; }
+
+.footer {
+  border-top: 1px solid #ff7067; }
+
+.dls {
+  display: -webkit-flex;
+  padding: .15rem 0; }
+  .dls dt {
+    width: .78rem;
+    height: .79rem;
+    margin-left: .26rem;
+    margin-right: .18rem; }
+    .dls dt img {
+      width: 100%;
+      height: 100%; }
+  .dls dd {
+    -webkit-flex: 1; }
+    .dls dd p:nth-of-type(1) {
+      font-family: "MicroSoft Yahei"; }
+    .dls dd p:nth-of-type(2) {
+      font-size: .2rem;
+      color: #666;
+      margin-top: .05rem; }
+  .dls span i {
+    color: #ff5046;
+    margin-top: .2rem; }
+    .dls span i:nth-of-type(2) {
+      margin-right: .4rem; }
+    .dls span i:nth-of-type(1) {
+      margin-right: .3rem; }
+
+.dl1 {
+  background: #fff;
+  margin-top: .2rem; }
+  .dl1 dt {
+    width: .82rem;
+    height: .79rem;
+    margin-left: .3rem; }
+    .dl1 dt p {
+      color: #ccc; }
+
+/*# sourceMappingURL=singer.css.map */
